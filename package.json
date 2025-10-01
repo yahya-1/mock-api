@@ -6,6 +6,9 @@
     "seed": "node scripts/seed.js",
     "start": "json-server --watch db.json --port 4000 --routes routes.json --middlewares server.cjs"
   },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
   "devDependencies": {
     "@faker-js/faker": "^9.0.0",
     "json-server": "^0.17.4"

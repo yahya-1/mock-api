@@ -1,16 +1,16 @@
+// server.cjs
 const jsonServer = require("json-server");
 const path = require("path");
 
-const server = jsonServer.create();
+const app = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
-const middlewares = jsonServer.defaults({
-  static: null, // ما بدنا ملفات ستاتيك
-});
+const middlewares = jsonServer.defaults();
 
-server.use(middlewares);
-server.use(jsonServer.bodyParser);
+app.use(middlewares);
+app.use(jsonServer.bodyParser);
 
-// تقدر تقلّب الباث إذا بدك: /api/* أو بدون /api
-server.use("/api", (req, res, next) => next(), router);
+// نحط الـ API تحت /api
+app.use("/api", router);
 
-module.exports = server;
+// ✅ في Vercel لازم نصدّر handler (دالة) تتلقى req/res
+module.exports = (req, res) => app(req, res);
