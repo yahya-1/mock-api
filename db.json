@@ -1,8 +1,51 @@
 {
-  "users": [
-    { "id": 1, "name": "Yahya", "email": "yahya@example.com", "role": "admin" }
-  ],
-  "posts": [
-    { "id": 101, "user_id": 1, "title": "Hello Gaza", "body": "Mock body" }
+  "users": [],
+  "posts": [],
+  "sliderItems": [
+    {
+      "id": 101,
+      "type": "video",
+      "scope": { "season": true, "areaId": null },
+      "enabled": true,
+      "order": 1,
+      "publishAt": "2025-10-01T08:00:00Z",
+      "expireAt": null,
+      "content": {
+        "title": { "ar": "موسم الدرعية", "en": "Diriyah Season" },
+        "subtitle": { "ar": "ابدأ رحلتك", "en": "Start your journey" },
+        "cta": { "label": { "ar": "المزيد", "en": "Learn more" }, "url": "https://example.com" }
+      },
+      "media": {
+        "video": {
+          "desktopUrl": "https://cdn.example.com/hero-desktop.mp4",
+          "mobileUrl": "https://cdn.example.com/hero-mobile.mp4"
+        }
+      },
+      "createdAt": "2025-10-01T12:00:00Z",
+      "updatedAt": "2025-10-01T12:00:00Z"
+    },
+    {
+      "id": 201,
+      "type": "image",
+      "scope": { "season": false, "areaId": 7 },
+      "enabled": true,
+      "order": 2,
+      "publishAt": "2025-10-01T08:00:00Z",
+      "expireAt": null,
+      "content": {
+        "title": { "ar": "منطقة العلا", "en": "AlUla Area" },
+        "description": { "ar": "وصف قصير", "en": "Short description" },
+        "cta": { "label": { "ar": "احجز", "en": "Book" }, "url": "https://example.com/book" }
+      },
+      "media": {
+        "image": {
+          "desktopUrl": "https://cdn.example.com/area7-desktop.jpg",
+          "mobileUrl": "https://cdn.example.com/area7-mobile.jpg",
+          "alt": { "ar": "صورة العلا", "en": "AlUla image" }
+        }
+      },
+      "createdAt": "2025-10-01T12:10:00Z",
+      "updatedAt": "2025-10-01T12:10:00Z"
+    }
   ]
 }
