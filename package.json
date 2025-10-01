@@ -1,0 +1,13 @@
+{
+  "name": "mock-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "start": "json-server --watch db.json --port 4000 --routes routes.json --middlewares server.cjs"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "json-server": "^0.17.4"
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Edmond Lubowitz",
+    "email": "willa34@hotmail.com",
+    "role": "admin",
+    "createdAt": "2025-09-14T23:38:53.540Z"
+  },
+  {
+    "id": 2,
+    "name": "Jaime Deckow",
+    "email": "juvenal61@hotmail.com",
+    "role": "user",
+    "createdAt": "2025-09-11T12:24:23.904Z"
+  },
+  {
+    "id": 3,
+    "name": "Dianna Murray",
+    "email": "hiram42@hotmail.com",
+    "role": "user",
+    "createdAt": "2025-09-30T03:40:16.545Z"
+  },
+  {
+    "id": 4,
+    "name": "Louis Hamill",
+    "email": "demarco_yost61@yahoo.com",
+    "role": "user",
+    "createdAt": "2025-09-26T14:50:29.251Z"
+  },
+  {
+    "id": 5,
+    "name": "Julian Gutmann",
+    "email": "sebastian62@yahoo.com",
+    "role": "user",
+    "createdAt": "2025-09-27T02:21:45.478Z"
+  },
+  {
+    "id": 6,
+    "name": "Opal Dickinson",
+    "email": "shea.reilly@gmail.com",
+    "role": "admin",
+    "createdAt": "2025-09-06T14:19:37.960Z"
+  },
+  {
+    "id": 7,
+    "name": "Melody Pouros",
+    "email": "tiana.herzog@hotmail.com",
+    "role": "user",
+    "createdAt": "2025-09-22T23:26:47.306Z"
+  },
+  {
+    "id": 8,
+    "name": "Freddie Medhurst",
+    "email": "grayson_heathcote66@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-05T18:07:14.303Z"
+  },
+  {
+    "id": 9,
+    "name": "Miss Marjorie Lueilwitz",
+    "email": "fidel.simonis@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-17T11:22:47.891Z"
+  },
+  {
+    "id": 10,
+    "name": "Willie Durgan",
+    "email": "stephon39@hotmail.com",
+    "role": "user",
+    "createdAt": "2025-09-06T15:50:45.447Z"
+  },
+  {
+    "id": 11,
+    "name": "Sean Block-Keebler",
+    "email": "katelin_gulgowski@hotmail.com",
+    "role": "admin",
+    "createdAt": "2025-09-24T10:24:53.338Z"
+  },
+  {
+    "id": 12,
+    "name": "Andy Smitham",
+    "email": "edmond66@yahoo.com",
+    "role": "user",
+    "createdAt": "2025-09-22T17:13:12.834Z"
+  },
+  {
+    "id": 13,
+    "name": "Jessie Mann",
+    "email": "rasheed57@hotmail.com",
+    "role": "user",
+    "createdAt": "2025-09-04T04:51:48.750Z"
+  },
+  {
+    "id": 14,
+    "name": "Roman Champlin",
+    "email": "greg20@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-15T20:49:38.047Z"
+  },
+  {
+    "id": 15,
+    "name": "Adam Waters",
+    "email": "mikel.ortiz63@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-24T04:07:05.437Z"
+  },
+  {
+    "id": 16,
+    "name": "Camille Bergstrom",
+    "email": "ofelia_brakus66@yahoo.com",
+    "role": "admin",
+    "createdAt": "2025-09-25T14:19:53.721Z"
+  },
+  {
+    "id": 17,
+    "name": "Horace Jenkins",
+    "email": "emmitt.dibbert98@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-29T07:59:43.214Z"
+  },
+  {
+    "id": 18,
+    "name": "Blake Kuvalis",
+    "email": "dean_ferry89@gmail.com",
+    "role": "user",
+    "createdAt": "2025-09-10T21:16:40.620Z"
+  },
+  {
+    "id": 19,
+    "name": "Josh Abshire",
+    "email": "garret34@yahoo.com",
+    "role": "user",
+    "createdAt": "2025-09-25T19:02:43.615Z"
+  },
+  {
+    "id": 20,
+    "name": "Jo Jenkins",
+    "email": "mac.bailey50@yahoo.com",
+    "role": "user",
+    "createdAt": "2025-10-01T14:51:35.943Z"
+  }
+]
