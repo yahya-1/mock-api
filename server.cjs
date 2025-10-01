@@ -1,18 +1,16 @@
-// server.cjs  (CommonJS middleware for json-server)
-module.exports = function (req, res, next) {
-  // ?delay=200 → يحاكي تأخير الشبكة
-  const delay = Number(req.query.delay || 0);
-  if (delay) return setTimeout(next, delay);
+const jsonServer = require("json-server");
+const path = require("path");
 
-  // ?error=503 → يرجّع كود خطأ مقصود
-  if (req.query.error) {
-    return res.status(Number(req.query.error)).json({ message: "forced error (mock)" });
-  }
+const server = jsonServer.create();
+const router = jsonServer.router(path.join(__dirname, "db.json"));
+const middlewares = jsonServer.defaults({
+  static: null, // ما بدنا ملفات ستاتيك
+});
 
-  // مثال توكين (اختياري – معطّل افتراضياً):
-  // if (req.path.startsWith("/api") && req.headers.authorization !== "Bearer mock-token-123") {
-  //   return res.status(401).json({ message: "unauthorized (mock)" });
-  // }
+server.use(middlewares);
+server.use(jsonServer.bodyParser);
 
-  next();
-};
+// تقدر تقلّب الباث إذا بدك: /api/* أو بدون /api
+server.use("/api", (req, res, next) => next(), router);
+
+module.exports = server;
